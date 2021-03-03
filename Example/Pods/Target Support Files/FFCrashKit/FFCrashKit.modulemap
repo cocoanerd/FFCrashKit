@@ -1,0 +1,6 @@
+framework module FFCrashKit {
+  umbrella header "FFCrashKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

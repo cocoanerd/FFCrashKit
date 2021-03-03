@@ -7,12 +7,17 @@
 //
 
 #import "FFAppDelegate.h"
+#import "FFViewController.h"
 
 @implementation FFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[FFViewController alloc] init]];
+    self.window.rootViewController = nav;
+    [self.window makeKeyWindow];
     return YES;
 }
 

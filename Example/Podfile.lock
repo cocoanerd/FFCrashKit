@@ -1,0 +1,34 @@
+PODS:
+  - FFCrashKit (0.1.0):
+    - FFCrashKit/CrashReport (= 0.1.0)
+    - FFCrashKit/HeaderFiles (= 0.1.0)
+    - FFCrashKit/Manager (= 0.1.0)
+    - FFCrashKit/Model (= 0.1.0)
+    - FFCrashKit/UIFoundation (= 0.1.0)
+  - FFCrashKit/CrashReport (0.1.0):
+    - FFCrashKit/HeaderFiles
+    - FFCrashKit/Model
+  - FFCrashKit/HeaderFiles (0.1.0)
+  - FFCrashKit/Manager (0.1.0):
+    - FFCrashKit/CrashReport
+    - FFCrashKit/Model
+    - FFCrashKit/UIFoundation
+  - FFCrashKit/Model (0.1.0)
+  - FFCrashKit/UIFoundation (0.1.0):
+    - FFCrashKit/CrashReport
+    - FFCrashKit/HeaderFiles
+    - FFCrashKit/Model
+
+DEPENDENCIES:
+  - FFCrashKit (from `../`)
+
+EXTERNAL SOURCES:
+  FFCrashKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FFCrashKit: 1210da3dff7fb4a8acadf49fea231860664efce7
+
+PODFILE CHECKSUM: 2de1be4d05aa642baf600238c285b5886733b556
+
+COCOAPODS: 1.10.0

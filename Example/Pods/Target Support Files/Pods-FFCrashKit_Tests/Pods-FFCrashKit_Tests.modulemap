@@ -1,0 +1,6 @@
+framework module Pods_FFCrashKit_Tests {
+  umbrella header "Pods-FFCrashKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

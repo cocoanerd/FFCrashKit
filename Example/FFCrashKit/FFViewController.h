@@ -10,4 +10,6 @@
 
 @interface FFViewController : UIViewController
 
++(void)test;
+
 @end
