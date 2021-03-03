@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'FFCrashKit is used to protect crash of iOS project!'
 
-  s.homepage         = 'git@github.com:cocoanerd/FFCrashKit.git'
+  s.homepage         = 'https://github.com/cocoanerd/FFCrashKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '张慧芳' => 'cocoanerd@163.com' }
-  s.source           = { :git => 'git@github.com:cocoanerd/FFCrashKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/cocoanerd/FFCrashKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
