@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFCrashKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'FFCrashKit is used to protect crash of iOS project'
 
 # This description is used to generate tags and imFFove search results.

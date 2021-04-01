@@ -98,7 +98,7 @@ __attribute__((constructor)) static void constInit(void) {
     if (type & FFCrashRegisterType_KVC) {
         [NSObject registerKVCCrash];
     }
-    if (type & FFCrashRegisterType_KVC) {
+    if (type & FFCrashRegisterType_KVO) {
         [NSObject registerKVOCrash];
     }
 }
